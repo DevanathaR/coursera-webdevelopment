@@ -1,0 +1,83 @@
+body {
+	background-color: rgb(109,186,206);
+	height: 1000px;
+	font-size: 16px;
+}
+
+/** HEADER START **/
+
+#header-nav {
+	background-color: rgb(230,133,35);
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand {
+    height: 0px;
+    padding:8px 0px 0px 0px;
+    line-height: 0px;
+}
+
+.navbar-brand h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: -5px 20px;
+    color: white;
+    text-shadow: 1px 1px 1px #222;
+    line-height: 1.3;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(0,55,85);
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 1em;
+}
+
+#nav-list a:hover {
+    background-color: rgb(146,36,40);
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgb(0,55,85);
+}
+
+#menu-heading {
+    margin-bottom: 30px;
+    font-size: 1.7em;
+    color: white;
+    font-weight: bold;
+}
+/** HEADER END**/
+
+/** MAIN CONTENT START **/
+
+.menu-description {
+    padding: 20px;
+    background-color: rgb(0,55,85);
+    margin: 0px 20px;
+}
+
+.menu-description p {
+    text-align: justify;
+    font-size: 1em;
+    color: white;
+}
+
+#description-heading {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+
+}
+/** MAIN CONTENT END **/
